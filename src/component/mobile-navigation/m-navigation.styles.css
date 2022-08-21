@@ -1,0 +1,29 @@
+.m-nav-container {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.6em 1em;
+}
+
+.nav-lines {
+  width: 28px;
+}
+
+.nav-lines hr {
+  margin-bottom: 0.2em;
+  height: 2.5px;
+  background: black;
+  border: none;
+}
+
+.m-nav-container div:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 375px) {
+  .m-nav-container {
+    display: flex;
+  }
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navigation from "./component/navigation/navigation.component";
+import MNavigation from "./component/mobile-navigation/m-navigation.component";
+import Sidebar from "./component/mobile-sidebar/sidebar.component";
+import { useContext } from "react";
+import { SidebarContext } from "./context/sidebar.context";
 
 function App() {
+  const { enableSidebar } = useContext(SidebarContext);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <MNavigation />
+      {/* show sidebar if enableSidebar is true */}
+      {enableSidebar && <Sidebar />}
+      Make remote work
+      {/* ---------- */}
+      Get your team in sync, no matter your location. Streamline processes,
+      create team rituals, and watch productivity soar.
+      {/* ---------- */}
+      Learn more
     </div>
   );
 }
