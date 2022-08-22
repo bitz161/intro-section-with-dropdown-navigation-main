@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/intro-section-with-dropdown-navigation-main/static/css/main.dee1fcff.css",
+    "main.js": "/intro-section-with-dropdown-navigation-main/static/js/main.7a4abcff.js",
+    "static/js/787.6bff33b0.chunk.js": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js",
+    "static/media/image-hero-desktop.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/image-hero-mobile.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/client-databiz.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/client-maker.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/client-meet.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/client-audiophile.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/intro-section-with-dropdown-navigation-main/index.html",
+    "static/media/icon-reminders.svg": "/intro-section-with-dropdown-navigation-main/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
+    "static/media/icon-planning.svg": "/intro-section-with-dropdown-navigation-main/static/media/icon-planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/icon-calendar.svg": "/intro-section-with-dropdown-navigation-main/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/intro-section-with-dropdown-navigation-main/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
+    "main.dee1fcff.css.map": "/intro-section-with-dropdown-navigation-main/static/css/main.dee1fcff.css.map",
+    "main.7a4abcff.js.map": "/intro-section-with-dropdown-navigation-main/static/js/main.7a4abcff.js.map",
+    "787.6bff33b0.chunk.js.map": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dee1fcff.css",
+    "static/js/main.7a4abcff.js"
+  ]
+}
