@@ -1,0 +1,99 @@
+.h1-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 90px;
+  /* height: 100px; */
+}
+
+.background-img {
+  background: url("../../assets//images/image-hero-desktop.png");
+  width: 80vh;
+  height: 45em;
+  background-size: 33em;
+  background-position: center;
+  background-repeat: no-repeat;
+  order: 1;
+  margin: 1em 0;
+}
+
+.description-info {
+  width: 25rem;
+  line-height: 25px;
+  margin: 2.5em 0;
+}
+
+.learn-more {
+  font-size: 0.9em;
+  width: 9em;
+  height: 2.7em;
+  font-weight: 700;
+  color: white;
+  background: black;
+  border-radius: 10px;
+}
+
+.description-container {
+  margin: 10em;
+}
+
+.home-container {
+  display: flex;
+  align-content: center;
+  padding-right: 5em;
+}
+
+.client-container {
+  margin-top: 4em;
+}
+.client-icon {
+  margin-right: 4em;
+}
+
+@media only screen and (max-width: 375px) {
+  .h1-container {
+    flex-direction: row;
+    font-size: 30px;
+    width: 13em;
+    justify-content: center;
+  }
+
+  .home-container {
+    flex-direction: column;
+    width: 375px;
+    padding: 0;
+    margin: 0;
+    width: 375px;
+  }
+  .background-img {
+    background: url("../../assets/images/image-hero-mobile.png");
+    order: 0;
+    width: 383px;
+    height: 16em;
+    background-size: 383px;
+  }
+  .description-container {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+  }
+  .description-info {
+    width: 22em;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  .h1-container div:nth-of-type(2) {
+    margin-left: 10px;
+  }
+  .learn-more {
+    height: 3em;
+  }
+  .client-container {
+    margin-top: 3em;
+  }
+  .client-icon {
+    margin-right: 0em;
+  }
+}

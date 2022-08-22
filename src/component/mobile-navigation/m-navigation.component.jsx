@@ -3,9 +3,11 @@ import { useContext } from "react";
 import { SidebarContext } from "../../context/sidebar.context";
 
 const MNavigation = () => {
-  const { setEnableSidebar, enableSidebar } = useContext(SidebarContext);
+  const { setEnableSidebar, enableSidebar, setSidebarVariant } =
+    useContext(SidebarContext);
 
   const handleSidebar = () => {
+    setSidebarVariant(true);
     setEnableSidebar(!enableSidebar);
   };
 

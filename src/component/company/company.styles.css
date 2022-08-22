@@ -1,0 +1,39 @@
+.company-container {
+  font-size: 14px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 235px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  color: hsl(0, 0%, 41%);
+}
+
+.company-container div {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.company-container div:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 375px) {
+  .company-container {
+    font-size: 14px;
+    box-shadow: none;
+  }
+  .company2 {
+    left: 40%;
+    top: 125px;
+  }
+  .company1 {
+    left: 40%;
+    top: 243px;
+  }
+}

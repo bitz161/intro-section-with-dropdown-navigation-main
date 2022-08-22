@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { SidebarProvider } from "./context/sidebar.context";
+import { DropMenuProvider } from "./context/dropMenu.context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <SidebarProvider>
-      <App />
+      <DropMenuProvider>
+        <App />
+      </DropMenuProvider>
     </SidebarProvider>
   </React.StrictMode>
 );
